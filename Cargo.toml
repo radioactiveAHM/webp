@@ -2,7 +2,7 @@
 name = "webp"
 version = "0.3.1"
 authors = ["Jared Forth <jaredforthdev@gmail.com>"]
-edition = "2021"
+edition = "2024"
 
 description = "WebP conversion library."
 
@@ -15,7 +15,7 @@ keywords = ["image", "webp", "conversion"]
 categories = ["external-ffi-bindings"]
 
 [dependencies]
-libwebp-sys = "0.9.3"
+libwebp-sys = "0.14.4"
 image = { version = "^0.25.0", default-features = false, optional = true }
 
 [features]
