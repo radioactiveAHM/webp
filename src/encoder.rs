@@ -84,8 +84,7 @@ impl<'a> Encoder<'a> {
                 self.e.width(),
                 self.e.height(),
             );
-            let res = encode(&mut *picture, config);
-            res
+            encode(&mut picture, config)
         }
     }
 }
